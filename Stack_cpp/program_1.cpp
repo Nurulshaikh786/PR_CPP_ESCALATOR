@@ -112,7 +112,7 @@ class Stack{
             {
         // menu driven program for user to use stack according to the
             cout << "-----------------------------------\n";
-            cout << "\t\tProgram to be Exicuted\t\t:\n";
+            cout << "\t\tProgram to be Exicuted\t\t\n";
             cout << "-----------------------------------\n";
             cout << "Enter 0 to Exit\n";
             cout << "Enter 1 to Push an element in stack\n";
@@ -120,7 +120,7 @@ class Stack{
             cout << "Enter 3 to check what is in Peek of stack \n";
             cout << "Enter 4 to check stack Ismpty\n";
             cout << "Enter 5 to check stack IsFull\n";
-            cout << "Enter 6 to Display alleleent of stack \n";
+            cout << "Enter 6 to Display all element of stack \n";
             cout << "Enter 7 to check the Size of stack\n";
 
             cout << " Enter your choice : ";
