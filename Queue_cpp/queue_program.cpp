@@ -31,11 +31,11 @@ public:
 
 void Queue::enqueue(int element)
 {
-    if (isFull())
+    if (this->isFull())
     {
         cout << "Queue overflow! Can't enqueue " << element << endl;
     }
-    else
+    else 
     {
         array[++rear] = element;
         size++;
@@ -87,7 +87,7 @@ int Queue::Rear()
         cout << "Queue is empty! Cannot get rear element." << endl;
         return -1; // or some other error value
     }
-    return array[rear];
+    return array[this->rear];
 }
 bool Queue::isFull()
 {
